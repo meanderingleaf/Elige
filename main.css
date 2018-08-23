@@ -1,0 +1,22 @@
+.card {
+    width: 130px;
+    height: 200px;
+    border: 3px solid #222;
+    border-radius: 5px;
+    margin: 2px;
+    background: #F00;
+  }
+  
+  .game {
+    display: flex;
+  }
+  
+  .inMotion {
+    animation-name: pounce;
+    animation-duration: 2s;
+  }
+  
+  @keyframes pounce {
+      from {background-color: #fff; }
+      to {background-color: #F00; }
+  }
